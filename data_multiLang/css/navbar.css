@@ -1,0 +1,22 @@
+.navbar {
+    padding: 0.8rem;
+  }
+  
+  .navbar-nav li {
+    padding-right: 20px;
+  }
+  
+  .nav-link li {
+    font-size: 1.1em !important;
+  }
+  .lang-btn{
+    border:none;
+    background-color: transparent;
+  }
+  .dropdown-lang{
+    min-width: 3rem;
+  }
+  
+  .dropdown-lang-item{
+    padding: 0.25rem 0.25rem;
+  }

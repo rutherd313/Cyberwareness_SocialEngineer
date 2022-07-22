@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Cyberwareness - About</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+		crossorigin="anonymous"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+
+	<!-- Navigation -->
+	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+		<div class="container-fluid">
+			<a id="logo" class="navbar-brand" href="index.html"><img src="img/logo.png" width="50" height="49" /></a>
+			<!-- <div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li data-key="nav_home" class="nav-item active">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+				</ul>
+				<ul class="navbar-nav ml-auto">
+					<li data-key="nav_about" class="nav-item active">
+						<a class="nav-link" href="about.html">About</a>
+					</li>
+				</ul>
+				<ul class="navbar-nav ml-auto">
+					<li data-key="nav_team" class="nav-item active">
+						<a class="nav-link" href="team.html">Team</a>
+					</li>
+				</ul>
+				<ul class="navbar-nav ml-auto">
+					<li data-key="nav_resources" class="nav-item active">
+						<a class="nav-link" href="resources.html">Resources</a>
+					</li>
+				</ul>
+				<div class="btn-group ml-auto">
+					<button  class="btn lang-btn dropdown-toggle px-0" type="button" id="dropdownMenuLang" data-bs-toggle="dropdown" aria-expanded="false">
+						<img id="lang-btn" width="25" src = "img/american-flag.png" />
+					</button>
+					<ul class="dropdown-menu dropdown-menu-start dropdown-lang" aria-labelledby="dropdownMenuLang">
+					  <li><a class="dropdown-item dropdown-lang-item" href="#en" onclick="load('#en')"> <img width="20" src = "img/american-flag.png"/> EN</a></li>
+					  <li><a class="dropdown-item dropdown-lang-item" href="#de" onclick="load('#de')"> <img width="20" src = "img/german-flag.png"/> DE</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<!--- Welcome Section.  "About Us" -->
+	<div class="container-fluid padding">
+		<div class="row welcome text-center">
+			<div class="col-md-12">
+				<h1 data-key="AboutHeading" class="display-4">About Us</h1>
+			</div>
+			<hr>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<!--<p class="lead"> -->
+				<p class="lead text-center" data-key="AboutText">
+					Cyberwareness is a transatlantic research project conducted through a
+					partnership between leading higher education research institutions in
+					the United States and Germany. Partnership universities include
+					Northeastern Illinois University and Pädagogische Hochschule Karlsruhe
+					University of Education. If you would like to learn more about members
+					of our team, please check out our <a href="team.html">Team</a> page.
+					The increasing presence of social engineering threats combined with a
+					lack of general awareness sparked a discussion between both
+					universities; recognition of this problem led to the unanimous
+					decision to mitigate the success of social engineering attacks.
+					Therefore, the universities teamed up to meet this need, and help
+					improve the field of cybersecurity through creating Cyberwareness and
+					its social engineering test.
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<!--- Three Column/Transatlantic Research Project -->
+	<div class="container-fluid padding">
+		<div class="row text-center justify-content-center padding">
+			<div class="col-xs-12 col-sm-6 col-md-4">
+				<img src="img/usa.png" width="105" height="105" class="mb-3"/>
+				<!-- <div>Icons made by <a href="https://www.flaticon.com/authors/prettycons" title="prettycons">prettycons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
+				<h3>Northeastern Illinois University</h3>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4">
+				<img src="img/map.png" class="img-fluid" class="mb-3"/>
+				<!-- Altered image is originally from: Astrokey44, CC BY-SA 3.0 <http://creativecommons.org/licenses/by-sa/3.0/>, via Wikimedia Commons-->
+				<h3 data-key="PartnershipTitle">Transatlantic Partnership</h3>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4">
+				<img src="img/germany.png" width="105" height="105" class="mb-3"/>
+				<!-- <div>Icons made by <a href="https://www.flaticon.com/authors/surang" title="surang">surang</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
+				<h3>Pädagogische Hochschule Karlsruhe <br/> University of Education</h3>
+			</div>
+		</div>
+	</div>
+
+	<!--- Two Column Section.  "Mission Statement" -->
+	<div class="container-fluid mission-statement">
+		<div class="row padding">
+			<div class="col-md-12 col-lg-6">
+				<h2 class="display-4" data-key="MissionHeading">Our Mission</h2>
+				<p data-key="MissionParagraph1">
+					Our mission is to give clients of all backgrounds a practical
+					solution on how to combat socially engineered cyber-attacks. Through
+					our social engineering test, clients become informed, allowing
+					them to identify these insidious tactics. As personal data
+					becomes more valuable, social engineering attacks' complexity
+					increases in proportion. Our test’s intent is not only to inform but
+					also to promote critical thinking for mitigating social engineering
+					attacks in the present and future.
+				</p>
+				<br />
+				<p data-key="MissionParagraph2">
+					As academics, we share the same values as our clients by formatting
+					our test with the goal of knowledge retention. We have designed our
+					resources with fluidity and incisiveness. By doing so, we aim to
+					deliver the most seamless and efficient learning experience. With
+					the increased traffic in data migration online, it is paramount that
+					people understand what social engineering attacks are and their
+					serious implications. Through this website, our team consolidated
+					the most common social engineering attacks to educate in an
+					all-inclusive manner.
+				</p>
+			</div>
+
+			<div class="col-lg-6">
+				<img src="img/philosophy.png" class="img-fluid" />
+			</div>
+		</div>
+	</div>
+
+	<!-- Two Column Section.  'Research Institutions" -->
+	<div class="container-fluid padding">
+		<div class="row welcome text-center">
+			<div class="col-12">
+				<h1 class="display-4"  data-key="InstitutionsHeading">Research Institutions</h1>
+			</div>
+			<hr style="width:45%">
+		</div>
+	</div>
+
+	<div class="container-fluid padding">
+		<div class="row padding text-center">
+			<div class="col-lg-6">
+				<h2 class="text-dark">Northeastern Illinois University (NEIU)</h2>
+				<p data-key="TextNEIU">
+					Northeastern Illinois University’s (NEIU) School of Business and
+					Technology hosts the university’s computer science undergraduate and
+					graduate-level programs, which remain the largest and most popular
+					within the university. Nestled in Chicago, USA, NEIU’s computer
+					science programs offer a dynamic host of courses that develop
+					leaders in the fields of software engineering, networking, IT
+					management, cybersecurity, data science, and artificial
+					intelligence. Besides technical achievements, NEIU is noteworthy for
+					its longstanding partnership with Google. To learn more about NEIU,
+					please go to the university’s main website located
+					<a href="https://www.neiu.edu/" target="_blank" rel="noopener noreferrer">
+						here</a>.
+				</p>
+			</div>
+
+			<div class="col-lg-6">
+				<h2 class="text-dark"> Pädagogische Hochschule Karlsruhe University of Education (PHKA)</h2>
+				<p data-key="TextPHKA">
+					The University of Education in Karlsruhe (PHKA) stands out among the
+					most prominent landmarks in Baden-Württemberg, Germany because of
+					its educational science center. Defining characteristics of the
+					university include its focus on STEM, bilingual and multilingual
+					education, and educational processes in the context of social
+					diversity and inequality. As the centerpiece of Karlsruhe, PHKA’s
+					unparalleled educational research remains seen and appreciated by
+					all. More info about PHKA is found
+					<a href="https://www-ph--karlsruhe-de.translate.goog/?_x_tr_sl=de&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=nui,sc"
+						target="_blank" rel="noopener noreferrer">here</a>, at the university’s main website.
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<footer>
+		<div class="container-fluid padding">
+			<div class="row text-center">
+
+				<div class="col-md-4">
+					<hr class="light">
+					<h5>NEIU College of Business and Technology</h5>
+					<p>+1 (773) 442-6104</p>
+					<p>cobm-do@neiu.edu</p>
+					<p>5500 N. St. Louis Avenue</p>
+					<p>Chicago, IL 60625</p>
+				</div>
+
+				<div class="col-md-4">
+					<hr class="light">
+					<h5>Pädagogische Hochschule Karlsruhe University of Education</h5>
+					<p>+49 721 925-3</p>
+					<p>poststelle@ph-karlsruhe.de</p>
+					<p>Postfach 11 10 62</p>
+					<p>76060 Karlsruhe</p>
+				</div>
+
+				<div class="col-md-4">
+					<hr class="light">
+					<h5 data-key="Contact">Contact Us: </h5>
+					<p>Phone: +1 (773) 442-4714</p>
+					<p>Email: m-mohaisen@neiu.edu</p>
+
+					<div>
+						<br>
+						<p>All rights reserved</p>
+						<p>Copyright 2021</p>
+					</div>
+				</div>
+
+				<div class="col-md-8">
+					<hr class="light-small-devices">
+					<h5>&copy; Cyberwareness</h5>
+				</div>
+
+				<div data-key="PrivacyPolicy" class="col-md-4">
+					<hr class="light-small-devices">
+					<a href="privacy_policy.html">Privacy Policy</a>
+				</div>
+
+			</div>
+		</div>
+	</footer>
+	<script src="js/lang/translations.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>

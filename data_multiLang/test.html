@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cyberwareness - Test</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="https://unpkg.com/survey-jquery/survey.min.css" type="text/css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/test.css">
+	<link rel="stylesheet" type="text/css" href="css/navbar.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="js/jquery/jquery-3.6.0.min.js"></script>
+	<script src="js/bootstrap/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/survey-jquery/survey.jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+</head>
+<body oncontextmenu="return false" onkeydown="return false">
+    <!-- Navigation -->
+	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+		<div class="container-fluid poppins-font">
+			<a id="logo" class="navbar-brand" href="../index.html"><img src="img/logo.png" width="50" height="49"></a>
+			<!-- <div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item active">
+						<a id="nav_info" class="nav-link text-dark" href="info.html">Information</a>
+					</li>
+				</ul>
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item active">
+						<a id="nav_test" class="nav-link text-dark" href="test.html">Test</a>
+					</li>
+				</ul>
+				<div class="btn-group ms-auto">
+					<button  class="btn lang-btn dropdown-toggle px-0" type="button" id="dropdownMenuLang" data-bs-toggle="dropdown" aria-expanded="false">
+						<img id="lang-btn" width="25" src = "../img/american-flag.png" />
+					</button>
+					<ul class="dropdown-menu dropdown-menu-start dropdown-lang" aria-labelledby="dropdownMenuLang">
+					  <li><a class="dropdown-item dropdown-lang-item" href="#en" onclick="load('#en')"> <img width="20" src = "../img/american-flag.png"/> EN</a></li>
+					  <li><a class="dropdown-item dropdown-lang-item" href="#de" onclick="load('#de')"> <img width="20" src = "../img/german-flag.png"/> DE</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</nav>
+    
+    <div id="surveyContainer"></div>
+    
+    <script src="js/setup.js"></script>
+    <script src="js/en/terms_conditions.en.js"></script>
+    <script src="js/en/test_crypt_ans.en.js"></script>
+	<script src="js/de/terms_conditions.de.js"></script>
+    <script src="js/de/test_crypt_ans.de.js"></script>
+    <script src="js/render_test.js"></script>
+    <script src="js/doughnutChart.js"></script>
+    <script src="js/barChart.js"></script>
+</body>
+</html>

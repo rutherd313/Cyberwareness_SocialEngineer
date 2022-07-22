@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cyberwareness - Team</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+		crossorigin="anonymous"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="css/style.css" rel="stylesheet">
+</head>
+
+
+<body>
+
+
+	<!-- Navigation -->
+	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+		<div class="container-fluid">
+			<a id="logo" class="navbar-brand" href="index.html"><img src="img/logo.png" width="50" height="49" /></a>
+			<!-- <div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li data-key="nav_home" class="nav-item active">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+				</ul>
+				<ul class="navbar-nav ml-auto">
+					<li data-key="nav_about" class="nav-item active">
+						<a class="nav-link" href="about.html">About</a>
+					</li>
+				</ul>
+				<ul class="navbar-nav ml-auto">
+					<li data-key="nav_team" class="nav-item active">
+						<a class="nav-link" href="team.html">Team</a>
+					</li>
+				</ul>
+				<ul class="navbar-nav ml-auto">
+					<li data-key="nav_resources" class="nav-item active">
+						<a class="nav-link" href="resources.html">Resources</a>
+					</li>
+				</ul>
+				<div class="btn-group ml-auto">
+					<button  class="btn lang-btn dropdown-toggle px-0" type="button" id="dropdownMenuLang" data-bs-toggle="dropdown" aria-expanded="false">
+						<img id="lang-btn" width="25" src = "img/american-flag.png" />
+					</button>
+					<ul class="dropdown-menu dropdown-menu-start dropdown-lang" aria-labelledby="dropdownMenuLang">
+					  <li><a class="dropdown-item dropdown-lang-item" href="#en" onclick="load('#en')"> <img width="20" src = "img/american-flag.png"/> EN</a></li>
+					  <li><a class="dropdown-item dropdown-lang-item" href="#de" onclick="load('#de')"> <img width="20" src = "img/german-flag.png"/> DE</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<!--- Welcome Section -->
+	<div class="container-fluid padding">
+		<div class="row welcome text-center">
+			<div class="col-12">
+				<h1 data-key="TeamHeading" class="display-4">Meet the Team</h1>
+			</div>
+			<hr>
+			<div class="col-12">
+				<p data-key="TeamText" class="lead">
+					Our team comprises of a partnership between academic researchers from Northeastern Illinois
+					University (NEIU) in the United States, and Pädagogische Hochschule Karlsruhe University of
+					Education (PHKA) in Germany. To find out more about our partnership, please go to our <a
+						href="about.html"> About</a> page. Below you can gain insight into the people who helped make
+					this project possible.
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Academic Advisors -->
+	<div class="container">
+		<div class="row justify-content-center">
+			<h1 data-key="AdvisorHeading" class="display-4 text-center" >Academic Advisors</h1>
+		</div>
+		<hr style="width:45%">
+	</div>
+
+	<!--- Two Column/Services -->
+	<div class="container-fluid padding">
+		<div class="row text-center padding">
+			<div class="col-xs-12 col-sm-6 col-md-6">
+				<img src="img/ManarCircle.png" width="110" height="110">
+				<h3>Manar</h3>
+				<h6>NEIU <img src="img/usa.png" width="20" height="20"> </h6>
+				<!--<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
+				<p data-key="TextManar">Manar is a computer science professor at Northeastern Illinois University. While not teaching, Manar
+					leads several research projects and publications. Research topics cover a wide range, but notably
+					relate to system security, wireless communications, and network analysis.</p>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-6">
+				<img src="img/BernhardCircle.png" width="110" height="110">
+				<h3>Bernhard</h3>
+				<h6>PHKA <img src="img/germany.png" width="20" height="20"> </h6>
+				<!--<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
+				<p data-key="TextBernhard">Bernhard is a junior professor for computer science at the Karlsruhe University of Education. He is
+					also a research and university assistant at the Technical University of Vienna. Bernhard’s research
+					focuses on the modeling of teaching concepts as design patterns in the context of computational
+					thinking.</p>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Design Team -->
+	<div class="container">
+		<div class="col">
+			<h1 class="display-4 text-center">Design Team</h1>
+		</div>
+		<hr style="width:45%">
+	</div>
+
+	<!--- Three Column/Services -->
+	<div class="container-fluid padding">
+		<div class="row text-center padding">
+			<div class="col-xs-12 col-sm-12 col-md-4">
+				<img src="img/JohnCircle.png" width="110" height="110">
+				<h3>John</h3>
+				<h6>NEIU <img src="img/usa.png" width="20" height="20"> </h6>
+				<!--<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
+				<p data-key="TextJohn">Experience includes front and back-end software development such as Java, JavaScript, MongoDB, and
+					MySQL. Currently, John is working in the accounting field for a brokerage and logistics company with
+					plans on migrating over to cybersecurity.</p>
+			</div>
+
+			<div class="col-xs-12 col-sm-6 col-md-4">
+				<img src="img/SabineCircle.png" width="110" height="110">
+				<!-- <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
+				<h3>Sabine</h3>
+				<h6>PHKA <img src="img/germany.png" width="20" height="20"> </h6>
+				<!--<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
+				<p data-key="TextSabine">Before her studies, Sabine completed her education as a medical technical laboratory assistant with a
+					state examination. Currently, she is studying mathematics and computer science in the bachelor’s
+					program for secondary education at PHKA. At the university Sabine also works as a tutor in the
+					Institute for Mathematics and Computer Science.</p>
+			</div>
+
+			<div class="col-xs-12 col-sm-6 col-md-4">
+				<img src="img/JoeCircle.png" width="110" height="110">
+				<h3>Joe</h3>
+				<h6>NEIU <img src="img/usa.png" width="20" height="20"> </h6>
+				<!--<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
+				<p data-key="TextJoe">Previous work experience includes internships at NASA's Wallops Flight Facility and Johnson Space Center.
+					 Joe became interested in cybersecurity while in college and sees this website as a way to garner 
+					 interest in others.</p>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Research Team -->
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col">
+				<h1 class="display-4 text-center">Research Team</h1>
+			</div>
+		</div>
+		<hr style="width:45%">
+	</div>
+
+	<!--- Three Column/Services -->
+	<div class="container-fluid padding">
+		<div class="row text-center padding">
+			<div class="col-xs-12 col-sm-12 col-md-4">
+				<img src="img/NoahCircle.png" width="110" height="110">
+				<h3>Noah</h3>
+				<h6>PHKA <img src="img/germany.png" width="20" height="20"> </h6>
+				<!--<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
+				<p data-key="TextNoah">Noah is currently studying mathematics and computer science in the bachelor's program for secondary
+					education at PHKA. Besides his studies, Noah works at PHKA as a tutor in the Institute of
+					Mathematics and Computer Science.</p>
+			</div>
+
+			<div class="col-xs-12 col-sm-6 col-md-4">
+				<img src="img/AndrewCircle.png" width="110" height="110">
+				<!-- <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
+				<h3>Andrew</h3>
+				<h6>NEIU <img src="img/usa.png" width="20" height="20"> </h6>
+				<!--<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
+				<p data-key="TextAndrew" >Andrew is a fourth-year student at Northeastern Illinois University. He is currently pursuing his
+					Bachelor of Science in Computer Science, with a concentration in information technology and
+					cybersecurity. He is hoping to start a technology career in his hometown of Chicago.</p>
+			</div>
+
+			<div class="col-xs-12 col-sm-6 col-md-4">
+				<img src="img/RaihanCircle.png" width="110" height="110">
+				<!-- <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
+				<h3>Raihan</h3>
+				<h6>NEIU <img src="img/usa.png" width="20" height="20"> </h6>
+				<!--<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
+				<p data-key="TextRaihan">Raihan is a graduating senior at Northeastern Illinois University pursuing his B.S. in computer
+					science. Notably, he has interned with Apple and Comcast. He is also a Mickey Leland research fellow
+					under the U.S. Department of Energy and Oak Ridge Institute for Science and Education. Currently,
+					Raihan is an NLP engineer at Comcast Laboratories.</p>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Footer -->
+	<footer>
+		<div class="container-fluid padding">
+			<div class="row text-center">
+
+				<div class="col-md-4">
+					<hr class="light">
+					<h5>NEIU College of Business and Technology</h5>
+					<p>+1 (773) 442-6104</p>
+					<p>cobm-do@neiu.edu</p>
+					<p>5500 N. St. Louis Avenue</p>
+					<p>Chicago, IL 60625</p>
+				</div>
+
+				<div class="col-md-4">
+					<hr class="light">
+					<h5>Pädagogische Hochschule Karlsruhe University of Education</h5>
+					<p>+49 721 925-3</p>
+					<p>poststelle@ph-karlsruhe.de</p>
+					<p>Postfach 11 10 62</p>
+					<p>76060 Karlsruhe</p>
+				</div>
+
+				<div class="col-md-4">
+					<hr class="light">
+					<h5 data-key="Contact">Contact Us: </h5>
+					<p>Phone: +1 (773) 442-4714</p>
+					<p>Email: m-mohaisen@neiu.edu</p>
+
+					<div>
+						<br>
+						<p>All rights reserved</p>
+						<p>Copyright 2021</p>
+					</div>
+				</div>
+
+				<div class="col-md-8">
+					<hr class="light-small-devices">
+					<h5>&copy; Cyberwareness</h5>
+				</div>
+
+				<div data-key="PrivacyPolicy" class="col-md-4">
+					<hr class="light-small-devices">
+					<a href="privacy_policy.html">Privacy Policy</a>
+				</div>
+
+			</div>
+		</div>
+	</footer>
+	<script src="js/lang/translations.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
